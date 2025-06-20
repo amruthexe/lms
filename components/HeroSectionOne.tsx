@@ -73,9 +73,9 @@ export function HeroSectionOne() {
         >
           <div className="w-full overflow-hidden rounded-xl border border-gray-300 dark:border-gray-700">
             <img
-              src="https://assets.aceternity.com/pro/aceternity-landing.webp"
+              src="/image.png"
               alt="Talent Trek LMS dashboard preview"
-              className="aspect-[16/9] h-auto w-full object-cover"
+              className=" h-auto w-full object-cover"
               height={1000}
               width={1000}
             />
