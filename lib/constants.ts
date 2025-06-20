@@ -1,0 +1,12 @@
+export const SITE_NAME = "Talent Trek LMS"
+export const SITE_URL = "https://www.talenttrekelearning.pro/"
+export const SITE_DESCRIPTION = "An ed‑tech platform offering modern tech courses—web dev, AI, cloud, cybersecurity, data science—with career support and certifications."
+export const SITE_KEYWORDS = "online learning, web development, app development, cloud computing, cybersecurity, data science, AI, tech courses, career support"
+export const SITE_CATEGORY = "Education"
+export const SITE_IMAGE = "https://www.talenttrekelearning.pro/og-image.png" // (replace with actual OG image URL)
+export const OWNER_NAME = "Talent Trek E‑Learning"
+export const OWNER_EMAIL = "support@talenttrekelearning.com"
+export const OWNER_PHONE_1 = "+91-9606995922"
+export const OWNER_PHONE_2 = "" // second number not available publicly
+export const COMPANY_NAME = "Talent Trek E‑Learning Pvt Ltd"
+export const COMPANY_ADDRESS = "Mitutoyo Complex, Mahakavi Vemana Rd, Koramangala, Bengaluru, Karnataka 560034, India"
