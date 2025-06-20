@@ -10,12 +10,12 @@ export default async function MyCoursesPage() {
   const user = await currentUser();
 
   if (!user?.id) {
-    return redirect("/");
+    // ✅ Redirect to home page with error query param
+    return redirect("/?error=unauthorized");
   }
 
   const enrolledCourses = await getEnrolledCourses(user.id);
 
-  // Get progress for each enrolled course
   const coursesWithProgress = await Promise.all(
     enrolledCourses.map(async ({ course }) => {
       if (!course) return null;
